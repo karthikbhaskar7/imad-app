@@ -24,7 +24,7 @@ var articles = {
         content: `<p>Article Three</p>`
         
     }
-}
+};
 function createTemplate(data){
         var title = data.title;
         var heading = data.heading;
