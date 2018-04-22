@@ -6,7 +6,7 @@ text.innerHTMl = 'Hi new Value';
 
 // Move the image
 var img = document.getElementById('img');
-img.Onclick = function(){
+img.onClick = function(){
     img.style.marginLeft = '100px';
     
 }
