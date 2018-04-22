@@ -7,6 +7,13 @@ text.innerHTML = 'Hi new Value';
 // Move the image
 var img = document.getElementById('img');
 img.onclick = function(){
-    img.style.marginLeft = '100px';
+    var interval = setInterval(moveRight, 50);
     
+}
+
+var marginLeft = 0;
+function moveRight(){
+    marginLeft = marginLeft + 5;
+    
+    img.style.marginLeft = marginLeft +'px';
 }
